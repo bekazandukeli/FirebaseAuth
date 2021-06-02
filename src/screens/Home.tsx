@@ -23,7 +23,7 @@ export default function Home({route}: HomeScreenProps) {
             paddingHorizontal: 25,
             justifyContent: 'space-between',
           }}>
-          <UserName {...{userName}} />
+          <UserName style={{marginTop: '9%'}} {...{userName}} />
           <Button
             style={{marginBottom: 169}}
             title="Sign Out"

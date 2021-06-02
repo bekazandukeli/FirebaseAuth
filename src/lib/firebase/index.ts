@@ -38,7 +38,7 @@ export function signUp(email: string, password: string, userName: string) {
     });
 }
 
-export function setUserName(uid: string, userName: string) {
+function setUserName(uid: string, userName: string) {
   firestore()
     .collection('users')
     .doc(uid)

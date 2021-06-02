@@ -3,7 +3,6 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   justify-content: center;
   align-items: center;
-  margin-top: 9%;
 `;
 export const UserNameContainer = styled.View`
   padding: 8px 32px;

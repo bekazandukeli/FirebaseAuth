@@ -1,14 +1,14 @@
 import React from 'react';
-import {View, Text, ActivityIndicator, Platform} from 'react-native';
+import {View, Text, ActivityIndicator, Platform, ViewProps} from 'react-native';
 import UserIcon from '../../assets/images/UserIcon';
 import {Container, UserNameContainer, UserNameText} from './styled';
 
-interface Props {
+interface Props extends ViewProps {
   userName: string;
 }
-export default function UserName({userName}: Props) {
+export default function UserName({userName, ...otherProps}: Props) {
   return (
-    <Container>
+    <Container {...otherProps}>
       <UserIcon />
       <UserNameContainer>
         {!!userName ? (
