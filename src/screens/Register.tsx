@@ -18,7 +18,7 @@ export default function Register({navigation}: RegisterScreenProps) {
           style={{
             flex: 1,
             paddingHorizontal: 25,
-            justifyContent: 'space-evenly',
+            justifyContent: 'space-between',
           }}>
           <Title>Create an Account</Title>
           <View>
@@ -43,7 +43,7 @@ export default function Register({navigation}: RegisterScreenProps) {
               value={password}
             />
           </View>
-          <View>
+          <View style={{marginBottom: 115}}>
             <Button
               title="Sign Up"
               onPress={() => signUp(email, password, userName)}

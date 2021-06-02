@@ -4,7 +4,7 @@ import {GradientContainer, Title} from './styled';
 
 interface Props extends PressableProps {
   title: string;
-  style: ViewStyle;
+  style?: ViewStyle;
 }
 export default function Button({title, style, ...otherProps}: Props) {
   return (

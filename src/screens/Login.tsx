@@ -19,7 +19,7 @@ export default function Login({navigation}: LoginScreenProps) {
           style={{
             flex: 1,
             paddingHorizontal: 25,
-            justifyContent: 'space-evenly',
+            justifyContent: 'space-between',
           }}>
           <Title>Welcome Back</Title>
           <View>
@@ -37,7 +37,7 @@ export default function Login({navigation}: LoginScreenProps) {
               value={password}
             />
           </View>
-          <View>
+          <View style={{marginBottom: 115}}>
             <Button
               title="Log In"
               onPress={() => logIn(email, password)}

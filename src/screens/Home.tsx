@@ -1,20 +1,36 @@
 import React, {useEffect, useState} from 'react';
-import {View, Text, Button} from 'react-native';
+import {SafeAreaView, View} from 'react-native';
 import {HomeScreenProps} from '../types';
 import {getUserName, logOut} from '../lib/firebase';
+import UserName from '../components/UserName';
+import {ScrollView} from 'react-native-gesture-handler';
+import Button from '../components/Button';
 
 export default function Home({route}: HomeScreenProps) {
   const {uid} = route.params;
-  const [userName, setUserName] = useState();
+  const [userName, setUserName] = useState('');
 
   useEffect(() => {
     getUserName(uid).then(userName => setUserName(userName));
   }, []);
 
   return (
-    <View>
-      <Text>{userName}</Text>
-      <Button title="Sign Out" onPress={() => logOut()} />
-    </View>
+    <SafeAreaView style={{flex: 1, backgroundColor: '#fff'}}>
+      <ScrollView contentContainerStyle={{flex: 1}}>
+        <View
+          style={{
+            flex: 1,
+            paddingHorizontal: 25,
+            justifyContent: 'space-between',
+          }}>
+          <UserName {...{userName}} />
+          <Button
+            style={{marginBottom: 169}}
+            title="Sign Out"
+            onPress={() => logOut()}
+          />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

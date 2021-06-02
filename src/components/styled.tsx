@@ -7,6 +7,7 @@ export const Title = styled.Text`
   line-height: 26px;
   text-align: center;
   color: #1b181c;
+  margin-top: 16%;
 `;
 export const SmallText = styled.Text`
   font-family: Roboto;
