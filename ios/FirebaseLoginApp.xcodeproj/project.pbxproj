@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* FirebaseLoginAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FirebaseLoginAppTests.m */; };
+		0DF07C0652F542E8A3D578B7 /* Roboto_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F6411CDC5384419852947F4 /* Roboto_bold.ttf */; };
 		1379395062034E33C691134D /* libPods-FirebaseLoginApp-FirebaseLoginAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96370DC9110CE05DE2CC9248 /* libPods-FirebaseLoginApp-FirebaseLoginAppTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		232B653D2665556000D318AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 232B653C2665556000D318AD /* GoogleService-Info.plist */; };
+		2879E6F469554C3D932534DC /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C10B802651F34D268F65420D /* Roboto.ttf */; };
 		42F8BB6E4AE5BE054042BA66 /* libPods-FirebaseLoginApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAA8D5E70E2429F84DEF72C /* libPods-FirebaseLoginApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,6 +39,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FirebaseLoginApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FirebaseLoginApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FirebaseLoginApp/main.m; sourceTree = "<group>"; };
+		1F6411CDC5384419852947F4 /* Roboto_bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_bold.ttf; path = ../src/assets/fonts/Roboto_bold.ttf; sourceTree = "<group>"; };
 		232B653C2665556000D318AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		76553F5AA4520488BDAEFE3D /* Pods-FirebaseLoginApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLoginApp.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseLoginApp/Pods-FirebaseLoginApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7BAA8D5E70E2429F84DEF72C /* libPods-FirebaseLoginApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirebaseLoginApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,7 @@
 		8F7AD5E9F67B45A8D2772C2D /* Pods-FirebaseLoginApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLoginApp.release.xcconfig"; path = "Target Support Files/Pods-FirebaseLoginApp/Pods-FirebaseLoginApp.release.xcconfig"; sourceTree = "<group>"; };
 		96370DC9110CE05DE2CC9248 /* libPods-FirebaseLoginApp-FirebaseLoginAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirebaseLoginApp-FirebaseLoginAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA6B1E94D22EE9DA433948F /* Pods-FirebaseLoginApp-FirebaseLoginAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLoginApp-FirebaseLoginAppTests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseLoginApp-FirebaseLoginAppTests/Pods-FirebaseLoginApp-FirebaseLoginAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C10B802651F34D268F65420D /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = ../src/assets/fonts/Roboto.ttf; sourceTree = "<group>"; };
 		DAA406D5D333D15D7339C965 /* Pods-FirebaseLoginApp-FirebaseLoginAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLoginApp-FirebaseLoginAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseLoginApp-FirebaseLoginAppTests/Pods-FirebaseLoginApp-FirebaseLoginAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -83,6 +87,16 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048FFFBEF3FC40EE8727A1E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F6411CDC5384419852947F4 /* Roboto_bold.ttf */,
+				C10B802651F34D268F65420D /* Roboto.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* FirebaseLoginApp */ = {
@@ -125,6 +139,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C296129AE320D9300714A0B7 /* Pods */,
+				048FFFBEF3FC40EE8727A1E8 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +264,8 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				232B653D2665556000D318AD /* GoogleService-Info.plist in Resources */,
+				0DF07C0652F542E8A3D578B7 /* Roboto_bold.ttf in Resources */,
+				2879E6F469554C3D932534DC /* Roboto.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
