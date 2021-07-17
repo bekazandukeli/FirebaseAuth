@@ -1,12 +1,13 @@
 import React, {useState} from 'react';
 import {View, Pressable} from 'react-native';
-import {LoginScreenProps} from '../types';
-import {SmallText, Title} from '../components/styled';
+import {LoginScreenProps} from '../../types';
+import {SmallText, Title} from '../../components/styled';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import TextField from '../components/TextField';
+import TextField from '../../components/TextField';
 import {ScrollView} from 'react-native-gesture-handler';
-import Button from '../components/Button';
-import {logIn} from '../lib/firebase';
+import Button from '../../components/Button';
+import {logIn} from '../../lib/firebase';
+import {Container, InputsContainer} from './styles';
 
 export default function Login({navigation}: LoginScreenProps) {
   const [email, setEmail] = useState('');
@@ -15,14 +16,9 @@ export default function Login({navigation}: LoginScreenProps) {
   return (
     <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>
       <ScrollView contentContainerStyle={{flex: 1}}>
-        <View
-          style={{
-            flex: 1,
-            paddingHorizontal: 25,
-            justifyContent: 'space-between',
-          }}>
+        <Container>
           <Title>Welcome Back</Title>
-          <View>
+          <InputsContainer>
             <TextField
               type="email"
               placeholder="Email"
@@ -36,7 +32,7 @@ export default function Login({navigation}: LoginScreenProps) {
               onChangeText={text => setPassword(text)}
               value={password}
             />
-          </View>
+          </InputsContainer>
           <View style={{marginBottom: 115}}>
             <Button
               title="Log In"
@@ -54,7 +50,7 @@ export default function Login({navigation}: LoginScreenProps) {
               </Pressable>
             </View>
           </View>
-        </View>
+        </Container>
       </ScrollView>
     </SafeAreaView>
   );
