@@ -1,4 +1,4 @@
-# FirebaseLoginApp
+# FirebaseAuth
 
 Demo app with Firebase Authentification, Registration and FireStore for storing user names.
 
